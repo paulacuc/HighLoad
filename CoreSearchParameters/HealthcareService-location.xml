@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="HealthcareService-location" />
+  <url value="http://hl7.org/fhir/SearchParameter/HealthcareService-location" />
+  <name value="location" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="location" />
+  <base value="HealthcareService" />
+  <type value="reference" />
+  <description value="The location of the Healthcare Service" />
+  <expression value="HealthcareService.location" />
+  <xpath value="f:HealthcareService/f:location" />
+  <xpathUsage value="normal" />
+  <target value="Location" />
+</SearchParameter>

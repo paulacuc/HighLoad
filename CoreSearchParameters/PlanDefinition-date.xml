@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="PlanDefinition-date" />
+  <url value="http://hl7.org/fhir/SearchParameter/PlanDefinition-date" />
+  <name value="date" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Clinical Decision Support)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/dss/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="date" />
+  <base value="PlanDefinition" />
+  <type value="date" />
+  <description value="The plan definition publication date" />
+  <expression value="PlanDefinition.date" />
+  <xpath value="f:PlanDefinition/f:date" />
+  <xpathUsage value="normal" />
+</SearchParameter>

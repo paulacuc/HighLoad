@@ -1,0 +1,29 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="DocumentReference-authenticator" />
+  <url value="http://hl7.org/fhir/SearchParameter/DocumentReference-authenticator" />
+  <name value="authenticator" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Structured Documents)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/structure/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="authenticator" />
+  <base value="DocumentReference" />
+  <type value="reference" />
+  <description value="Who/what authenticated the document" />
+  <expression value="DocumentReference.authenticator" />
+  <xpath value="f:DocumentReference/f:authenticator" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+  <target value="Organization" />
+</SearchParameter>

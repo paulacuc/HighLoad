@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Location-near-distance" />
+  <url value="http://hl7.org/fhir/SearchParameter/Location-near-distance" />
+  <name value="near-distance" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="near-distance" />
+  <base value="Location" />
+  <type value="quantity" />
+  <description value="A distance quantity to limit the near search to locations within a specific distance&#xA;&#xA;Requires the near parameter to also be included" />
+  <expression value="Location.position" />
+  <xpath value="f:Location/f:position" />
+  <xpathUsage value="distance" />
+</SearchParameter>

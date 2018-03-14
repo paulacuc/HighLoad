@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="AdverseEvent-location" />
+  <url value="http://hl7.org/fhir/SearchParameter/AdverseEvent-location" />
+  <name value="location" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Regulated Clinical Research Information Management)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/rcrim/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="location" />
+  <base value="AdverseEvent" />
+  <type value="reference" />
+  <description value="Location where adverse event occurred" />
+  <expression value="AdverseEvent.location" />
+  <xpath value="f:AdverseEvent/f:location" />
+  <xpathUsage value="normal" />
+  <target value="Location" />
+</SearchParameter>

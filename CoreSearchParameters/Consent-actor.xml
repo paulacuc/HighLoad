@@ -1,0 +1,34 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Consent-actor" />
+  <url value="http://hl7.org/fhir/SearchParameter/Consent-actor" />
+  <name value="actor" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Community Based Collaborative Care)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/cbcc/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="actor" />
+  <base value="Consent" />
+  <type value="reference" />
+  <description value="Resource for the actor (or group, by role)" />
+  <expression value="Consent.actor.reference | Consent.except.actor.reference" />
+  <xpath value="f:Consent/f:actor/f:reference | f:Consent/f:except/f:actor/f:reference" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+  <target value="Group" />
+  <target value="Organization" />
+  <target value="CareTeam" />
+  <target value="Device" />
+  <target value="Patient" />
+  <target value="RelatedPerson" />
+</SearchParameter>

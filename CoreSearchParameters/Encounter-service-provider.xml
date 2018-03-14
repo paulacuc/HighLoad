@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Encounter-service-provider" />
+  <url value="http://hl7.org/fhir/SearchParameter/Encounter-service-provider" />
+  <name value="service-provider" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="service-provider" />
+  <base value="Encounter" />
+  <type value="reference" />
+  <description value="The custodian organization of this Encounter record" />
+  <expression value="Encounter.serviceProvider" />
+  <xpath value="f:Encounter/f:serviceProvider" />
+  <xpathUsage value="normal" />
+  <target value="Organization" />
+</SearchParameter>

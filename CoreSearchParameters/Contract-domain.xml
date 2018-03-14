@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Contract-domain" />
+  <url value="http://hl7.org/fhir/SearchParameter/Contract-domain" />
+  <name value="domain" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Financial Management)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/fm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="domain" />
+  <base value="Contract" />
+  <type value="reference" />
+  <description value="The domain of the contract" />
+  <expression value="Contract.domain" />
+  <xpath value="f:Contract/f:domain" />
+  <xpathUsage value="normal" />
+  <target value="Location" />
+</SearchParameter>

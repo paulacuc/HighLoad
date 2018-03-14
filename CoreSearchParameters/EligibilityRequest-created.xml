@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="EligibilityRequest-created" />
+  <url value="http://hl7.org/fhir/SearchParameter/EligibilityRequest-created" />
+  <name value="created" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Financial Management)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/fm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="created" />
+  <base value="EligibilityRequest" />
+  <type value="date" />
+  <description value="The creation date for the EOB" />
+  <expression value="EligibilityRequest.created" />
+  <xpath value="f:EligibilityRequest/f:created" />
+  <xpathUsage value="normal" />
+</SearchParameter>

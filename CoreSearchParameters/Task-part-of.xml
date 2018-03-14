@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Task-part-of" />
+  <url value="http://hl7.org/fhir/SearchParameter/Task-part-of" />
+  <name value="part-of" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Orders and Observations)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/orders/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="part-of" />
+  <base value="Task" />
+  <type value="reference" />
+  <description value="Search by task this task is part of" />
+  <expression value="Task.partOf" />
+  <xpath value="f:Task/f:partOf" />
+  <xpathUsage value="normal" />
+  <target value="Task" />
+</SearchParameter>

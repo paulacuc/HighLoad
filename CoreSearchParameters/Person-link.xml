@@ -1,0 +1,31 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Person-link" />
+  <url value="http://hl7.org/fhir/SearchParameter/Person-link" />
+  <name value="link" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="link" />
+  <base value="Person" />
+  <type value="reference" />
+  <description value="Any link has this Patient, Person, RelatedPerson or Practitioner reference" />
+  <expression value="Person.link.target" />
+  <xpath value="f:Person/f:link/f:target" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+  <target value="Patient" />
+  <target value="Person" />
+  <target value="RelatedPerson" />
+</SearchParameter>

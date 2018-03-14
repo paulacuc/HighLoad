@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Sequence-patient" />
+  <url value="http://hl7.org/fhir/SearchParameter/Sequence-patient" />
+  <name value="patient" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Clinical Genomics)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/clingenomics/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="patient" />
+  <base value="Sequence" />
+  <type value="reference" />
+  <description value="The subject that the observation is about" />
+  <expression value="Sequence.patient" />
+  <xpath value="f:Sequence/f:patient" />
+  <xpathUsage value="normal" />
+  <target value="Patient" />
+</SearchParameter>

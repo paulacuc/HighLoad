@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="AuditEvent-agent-name" />
+  <url value="http://hl7.org/fhir/SearchParameter/AuditEvent-agent-name" />
+  <name value="agent-name" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Security)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/secure/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="agent-name" />
+  <base value="AuditEvent" />
+  <type value="string" />
+  <description value="Human-meaningful name for the agent" />
+  <expression value="AuditEvent.agent.name" />
+  <xpath value="f:AuditEvent/f:agent/f:name" />
+  <xpathUsage value="normal" />
+</SearchParameter>

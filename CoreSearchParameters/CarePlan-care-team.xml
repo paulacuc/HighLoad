@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="CarePlan-care-team" />
+  <url value="http://hl7.org/fhir/SearchParameter/CarePlan-care-team" />
+  <name value="care-team" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Care)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/patientcare/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="care-team" />
+  <base value="CarePlan" />
+  <type value="reference" />
+  <description value="Who's involved in plan?" />
+  <expression value="CarePlan.careTeam" />
+  <xpath value="f:CarePlan/f:careTeam" />
+  <xpathUsage value="normal" />
+  <target value="CareTeam" />
+</SearchParameter>

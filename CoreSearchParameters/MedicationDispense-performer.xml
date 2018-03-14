@@ -1,0 +1,32 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="MedicationDispense-performer" />
+  <url value="http://hl7.org/fhir/SearchParameter/MedicationDispense-performer" />
+  <name value="performer" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Pharmacy)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/medication/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="performer" />
+  <base value="MedicationDispense" />
+  <type value="reference" />
+  <description value="Return dispenses performed by a specific individual" />
+  <expression value="MedicationDispense.performer.actor" />
+  <xpath value="f:MedicationDispense/f:performer/f:actor" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+  <target value="Organization" />
+  <target value="Device" />
+  <target value="Patient" />
+  <target value="RelatedPerson" />
+</SearchParameter>

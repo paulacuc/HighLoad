@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Provenance-patient" />
+  <url value="http://hl7.org/fhir/SearchParameter/Provenance-patient" />
+  <name value="patient" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Security)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/secure/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="patient" />
+  <base value="Provenance" />
+  <type value="reference" />
+  <description value="Target Reference(s) (usually version specific)" />
+  <expression value="Provenance.target" />
+  <xpath value="f:Provenance/f:target" />
+  <xpathUsage value="normal" />
+  <target value="Patient" />
+</SearchParameter>

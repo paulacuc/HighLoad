@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="EnrollmentRequest-patient" />
+  <url value="http://hl7.org/fhir/SearchParameter/EnrollmentRequest-patient" />
+  <name value="patient" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Financial Management)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/fm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="patient" />
+  <base value="EnrollmentRequest" />
+  <type value="reference" />
+  <description value="The party to be enrolled" />
+  <expression value="EnrollmentRequest.subject" />
+  <xpath value="f:EnrollmentRequest/f:subject" />
+  <xpathUsage value="normal" />
+  <target value="Patient" />
+</SearchParameter>

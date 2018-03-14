@@ -1,0 +1,31 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="individual-email" />
+  <url value="http://hl7.org/fhir/SearchParameter/individual-email" />
+  <name value="email" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="email" />
+  <base value="PractitionerRole" />
+  <base value="RelatedPerson" />
+  <base value="Practitioner" />
+  <base value="Person" />
+  <base value="Patient" />
+  <type value="token" />
+  <description value="Multiple Resources: &#xD;&#xA;&#xD;&#xA;* [PractitionerRole](practitionerrole.html): A value in an email contact&#xD;&#xA;* [RelatedPerson](relatedperson.html): A value in an email contact&#xD;&#xA;* [Practitioner](practitioner.html): A value in an email contact&#xD;&#xA;* [Person](person.html): A value in an email contact&#xD;&#xA;* [Patient](patient.html): A value in an email contact&#xD;&#xA;" />
+  <expression value="PractitionerRole.telecom.where(system='email') | RelatedPerson.telecom.where(system='email') | Practitioner.telecom.where(system='email') | Person.telecom.where(system='email') | Patient.telecom.where(system='email')" />
+  <xpath value="f:PractitionerRole/f:telecom[system/@value='email'] | f:RelatedPerson/f:telecom[system/@value='email'] | f:Practitioner/f:telecom[system/@value='email'] | f:Person/f:telecom[system/@value='email'] | f:Patient/f:telecom[system/@value='email']" />
+  <xpathUsage value="normal" />
+</SearchParameter>

@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Organization-phonetic" />
+  <url value="http://hl7.org/fhir/SearchParameter/Organization-phonetic" />
+  <name value="phonetic" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="phonetic" />
+  <base value="Organization" />
+  <type value="string" />
+  <description value="A portion of the organization's name using some kind of phonetic matching algorithm" />
+  <expression value="Organization.name" />
+  <xpath value="f:Organization/f:name" />
+  <xpathUsage value="phonetic" />
+</SearchParameter>

@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Encounter-episodeofcare" />
+  <url value="http://hl7.org/fhir/SearchParameter/Encounter-episodeofcare" />
+  <name value="episodeofcare" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="episodeofcare" />
+  <base value="Encounter" />
+  <type value="reference" />
+  <description value="Episode(s) of care that this encounter should be recorded against" />
+  <expression value="Encounter.episodeOfCare" />
+  <xpath value="f:Encounter/f:episodeOfCare" />
+  <xpathUsage value="normal" />
+  <target value="EpisodeOfCare" />
+</SearchParameter>

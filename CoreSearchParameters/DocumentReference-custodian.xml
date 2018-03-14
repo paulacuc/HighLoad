@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="DocumentReference-custodian" />
+  <url value="http://hl7.org/fhir/SearchParameter/DocumentReference-custodian" />
+  <name value="custodian" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Structured Documents)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/structure/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="custodian" />
+  <base value="DocumentReference" />
+  <type value="reference" />
+  <description value="Organization which maintains the document" />
+  <expression value="DocumentReference.custodian" />
+  <xpath value="f:DocumentReference/f:custodian" />
+  <xpathUsage value="normal" />
+  <target value="Organization" />
+</SearchParameter>

@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Organization-address-state" />
+  <url value="http://hl7.org/fhir/SearchParameter/Organization-address-state" />
+  <name value="address-state" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="address-state" />
+  <base value="Organization" />
+  <type value="string" />
+  <description value="A state specified in an address" />
+  <expression value="Organization.address.state" />
+  <xpath value="f:Organization/f:address/f:state" />
+  <xpathUsage value="normal" />
+</SearchParameter>

@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="PractitionerRole-date" />
+  <url value="http://hl7.org/fhir/SearchParameter/PractitionerRole-date" />
+  <name value="date" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="date" />
+  <base value="PractitionerRole" />
+  <type value="date" />
+  <description value="The period during which the practitioner is authorized to perform in these role(s)" />
+  <expression value="PractitionerRole.period" />
+  <xpath value="f:PractitionerRole/f:period" />
+  <xpathUsage value="normal" />
+</SearchParameter>

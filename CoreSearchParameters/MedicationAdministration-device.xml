@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="MedicationAdministration-device" />
+  <url value="http://hl7.org/fhir/SearchParameter/MedicationAdministration-device" />
+  <name value="device" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Pharmacy)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/medication/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="device" />
+  <base value="MedicationAdministration" />
+  <type value="reference" />
+  <description value="Return administrations with this administration device identity" />
+  <expression value="MedicationAdministration.device" />
+  <xpath value="f:MedicationAdministration/f:device" />
+  <xpathUsage value="normal" />
+  <target value="Device" />
+</SearchParameter>

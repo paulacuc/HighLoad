@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="AllergyIntolerance-last-date" />
+  <url value="http://hl7.org/fhir/SearchParameter/AllergyIntolerance-last-date" />
+  <name value="last-date" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Care)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/patientcare/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="last-date" />
+  <base value="AllergyIntolerance" />
+  <type value="date" />
+  <description value="Date(/time) of last known occurrence of a reaction" />
+  <expression value="AllergyIntolerance.lastOccurrence" />
+  <xpath value="f:AllergyIntolerance/f:lastOccurrence" />
+  <xpathUsage value="normal" />
+</SearchParameter>

@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="ChargeItem-factor-override" />
+  <url value="http://hl7.org/fhir/SearchParameter/ChargeItem-factor-override" />
+  <name value="factor-override" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="factor-override" />
+  <base value="ChargeItem" />
+  <type value="number" />
+  <description value="Factor overriding the associated rules" />
+  <expression value="ChargeItem.factorOverride" />
+  <xpath value="f:ChargeItem/f:factorOverride" />
+  <xpathUsage value="normal" />
+</SearchParameter>

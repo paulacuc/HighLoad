@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="DocumentManifest-description" />
+  <url value="http://hl7.org/fhir/SearchParameter/DocumentManifest-description" />
+  <name value="description" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Structured Documents)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/structure/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="description" />
+  <base value="DocumentManifest" />
+  <type value="string" />
+  <description value="Human-readable description (title)" />
+  <expression value="DocumentManifest.description" />
+  <xpath value="f:DocumentManifest/f:description" />
+  <xpathUsage value="normal" />
+</SearchParameter>

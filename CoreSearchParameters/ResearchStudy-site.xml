@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="ResearchStudy-site" />
+  <url value="http://hl7.org/fhir/SearchParameter/ResearchStudy-site" />
+  <name value="site" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Regulated Clinical Research Information Management)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/rcrim/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="site" />
+  <base value="ResearchStudy" />
+  <type value="reference" />
+  <description value="Location involved in study execution" />
+  <expression value="ResearchStudy.site" />
+  <xpath value="f:ResearchStudy/f:site" />
+  <xpathUsage value="normal" />
+  <target value="Location" />
+</SearchParameter>

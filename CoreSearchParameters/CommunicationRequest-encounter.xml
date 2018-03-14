@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="CommunicationRequest-encounter" />
+  <url value="http://hl7.org/fhir/SearchParameter/CommunicationRequest-encounter" />
+  <name value="encounter" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Care)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/patientcare/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="encounter" />
+  <base value="CommunicationRequest" />
+  <type value="reference" />
+  <description value="Encounter leading to message" />
+  <expression value="CommunicationRequest.context" />
+  <xpath value="f:CommunicationRequest/f:context" />
+  <xpathUsage value="normal" />
+  <target value="Encounter" />
+</SearchParameter>

@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="TestReport-testscript" />
+  <url value="http://hl7.org/fhir/SearchParameter/TestReport-testscript" />
+  <name value="testscript" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (FHIR Infrastructure)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/fiwg/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="testscript" />
+  <base value="TestReport" />
+  <type value="reference" />
+  <description value="The test script executed to produce this report" />
+  <expression value="TestReport.testScript" />
+  <xpath value="f:TestReport/f:testScript" />
+  <xpathUsage value="normal" />
+  <target value="TestScript" />
+</SearchParameter>

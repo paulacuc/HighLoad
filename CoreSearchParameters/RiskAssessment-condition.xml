@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="RiskAssessment-condition" />
+  <url value="http://hl7.org/fhir/SearchParameter/RiskAssessment-condition" />
+  <name value="condition" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Clinical Decision Support)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/dss/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="condition" />
+  <base value="RiskAssessment" />
+  <type value="reference" />
+  <description value="Condition assessed" />
+  <expression value="RiskAssessment.condition" />
+  <xpath value="f:RiskAssessment/f:condition" />
+  <xpathUsage value="normal" />
+  <target value="Condition" />
+</SearchParameter>

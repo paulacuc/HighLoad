@@ -1,0 +1,32 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="ChargeItem-participant-actor" />
+  <url value="http://hl7.org/fhir/SearchParameter/ChargeItem-participant-actor" />
+  <name value="participant-actor" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="participant-actor" />
+  <base value="ChargeItem" />
+  <type value="reference" />
+  <description value="Individual who was performing" />
+  <expression value="ChargeItem.participant.actor" />
+  <xpath value="f:ChargeItem/f:participant/f:actor" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+  <target value="Organization" />
+  <target value="Device" />
+  <target value="Patient" />
+  <target value="RelatedPerson" />
+</SearchParameter>

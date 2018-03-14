@@ -1,0 +1,32 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Media-subject" />
+  <url value="http://hl7.org/fhir/SearchParameter/Media-subject" />
+  <name value="subject" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (FHIR Infrastructure)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/fiwg/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="subject" />
+  <base value="Media" />
+  <type value="reference" />
+  <description value="Who/What this Media is a record of" />
+  <expression value="Media.subject" />
+  <xpath value="f:Media/f:subject" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+  <target value="Group" />
+  <target value="Specimen" />
+  <target value="Device" />
+  <target value="Patient" />
+</SearchParameter>

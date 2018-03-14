@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="ImagingStudy-performer" />
+  <url value="http://hl7.org/fhir/SearchParameter/ImagingStudy-performer" />
+  <name value="performer" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Imaging Integration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/imagemgt/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="performer" />
+  <base value="ImagingStudy" />
+  <type value="reference" />
+  <description value="The person who performed the study" />
+  <expression value="ImagingStudy.series.performer" />
+  <xpath value="f:ImagingStudy/f:series/f:performer" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+</SearchParameter>

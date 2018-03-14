@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="DeviceRequest-event-date" />
+  <url value="http://hl7.org/fhir/SearchParameter/DeviceRequest-event-date" />
+  <name value="event-date" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Orders and Observations)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/orders/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="event-date" />
+  <base value="DeviceRequest" />
+  <type value="date" />
+  <description value="When service should occur" />
+  <expression value="DeviceRequest.occurrence.as(DateTime) | DeviceRequest.occurrence.as(Period)" />
+  <xpath value="f:DeviceRequest/f:occurrenceDateTime | f:DeviceRequest/f:occurrencePeriod" />
+  <xpathUsage value="normal" />
+</SearchParameter>

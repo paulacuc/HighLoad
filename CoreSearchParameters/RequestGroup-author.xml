@@ -1,0 +1,29 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="RequestGroup-author" />
+  <url value="http://hl7.org/fhir/SearchParameter/RequestGroup-author" />
+  <name value="author" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Clinical Decision Support)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/dss/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="author" />
+  <base value="RequestGroup" />
+  <type value="reference" />
+  <description value="The author of the request group" />
+  <expression value="RequestGroup.author" />
+  <xpath value="f:RequestGroup/f:author" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+  <target value="Device" />
+</SearchParameter>

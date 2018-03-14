@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="DocumentReference-period" />
+  <url value="http://hl7.org/fhir/SearchParameter/DocumentReference-period" />
+  <name value="period" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Structured Documents)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/structure/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="period" />
+  <base value="DocumentReference" />
+  <type value="date" />
+  <description value="Time of service that is being documented" />
+  <expression value="DocumentReference.context.period" />
+  <xpath value="f:DocumentReference/f:context/f:period" />
+  <xpathUsage value="normal" />
+</SearchParameter>

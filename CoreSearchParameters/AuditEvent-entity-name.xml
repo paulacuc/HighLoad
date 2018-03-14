@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="AuditEvent-entity-name" />
+  <url value="http://hl7.org/fhir/SearchParameter/AuditEvent-entity-name" />
+  <name value="entity-name" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Security)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/secure/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="entity-name" />
+  <base value="AuditEvent" />
+  <type value="string" />
+  <description value="Descriptor for entity" />
+  <expression value="AuditEvent.entity.name" />
+  <xpath value="f:AuditEvent/f:entity/f:name" />
+  <xpathUsage value="normal" />
+</SearchParameter>

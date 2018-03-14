@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="ExplanationOfBenefit-provider" />
+  <url value="http://hl7.org/fhir/SearchParameter/ExplanationOfBenefit-provider" />
+  <name value="provider" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Financial Management)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/fm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="provider" />
+  <base value="ExplanationOfBenefit" />
+  <type value="reference" />
+  <description value="The reference to the provider" />
+  <expression value="ExplanationOfBenefit.provider" />
+  <xpath value="f:ExplanationOfBenefit/f:provider" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+</SearchParameter>

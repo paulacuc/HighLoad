@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="ImagingStudy-endpoint" />
+  <url value="http://hl7.org/fhir/SearchParameter/ImagingStudy-endpoint" />
+  <name value="endpoint" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Imaging Integration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/imagemgt/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="endpoint" />
+  <base value="ImagingStudy" />
+  <type value="reference" />
+  <description value="The endpoint for te study or series" />
+  <expression value="ImagingStudy.endpoint | ImagingStudy.series.endpoint" />
+  <xpath value="f:ImagingStudy/f:endpoint | f:ImagingStudy/f:series/f:endpoint" />
+  <xpathUsage value="normal" />
+  <target value="Endpoint" />
+</SearchParameter>

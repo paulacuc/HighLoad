@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Library-url" />
+  <url value="http://hl7.org/fhir/SearchParameter/Library-url" />
+  <name value="url" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Clinical Decision Support)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/dss/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="url" />
+  <base value="Library" />
+  <type value="uri" />
+  <description value="The uri that identifies the library" />
+  <expression value="Library.url" />
+  <xpath value="f:Library/f:url" />
+  <xpathUsage value="normal" />
+</SearchParameter>

@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Provenance-location" />
+  <url value="http://hl7.org/fhir/SearchParameter/Provenance-location" />
+  <name value="location" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Security)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/secure/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="location" />
+  <base value="Provenance" />
+  <type value="reference" />
+  <description value="Where the activity occurred, if relevant" />
+  <expression value="Provenance.location" />
+  <xpath value="f:Provenance/f:location" />
+  <xpathUsage value="normal" />
+  <target value="Location" />
+</SearchParameter>

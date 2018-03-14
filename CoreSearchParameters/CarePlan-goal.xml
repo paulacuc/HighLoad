@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="CarePlan-goal" />
+  <url value="http://hl7.org/fhir/SearchParameter/CarePlan-goal" />
+  <name value="goal" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Care)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/patientcare/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="goal" />
+  <base value="CarePlan" />
+  <type value="reference" />
+  <description value="Desired outcome of plan" />
+  <expression value="CarePlan.goal" />
+  <xpath value="f:CarePlan/f:goal" />
+  <xpathUsage value="normal" />
+  <target value="Goal" />
+</SearchParameter>

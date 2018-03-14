@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="NutritionOrder-datetime" />
+  <url value="http://hl7.org/fhir/SearchParameter/NutritionOrder-datetime" />
+  <name value="datetime" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Orders and Observations)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/orders/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="datetime" />
+  <base value="NutritionOrder" />
+  <type value="date" />
+  <description value="Return nutrition orders requested on this date" />
+  <expression value="NutritionOrder.dateTime" />
+  <xpath value="f:NutritionOrder/f:dateTime" />
+  <xpathUsage value="normal" />
+</SearchParameter>

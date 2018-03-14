@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Coverage-dependent" />
+  <url value="http://hl7.org/fhir/SearchParameter/Coverage-dependent" />
+  <name value="dependent" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Financial Management)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/fm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="dependent" />
+  <base value="Coverage" />
+  <type value="string" />
+  <description value="Dependent number" />
+  <expression value="Coverage.dependent" />
+  <xpath value="f:Coverage/f:dependent" />
+  <xpathUsage value="normal" />
+</SearchParameter>

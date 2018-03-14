@@ -1,0 +1,29 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="DetectedIssue-author" />
+  <url value="http://hl7.org/fhir/SearchParameter/DetectedIssue-author" />
+  <name value="author" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Clinical Decision Support)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/dss/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="author" />
+  <base value="DetectedIssue" />
+  <type value="reference" />
+  <description value="The provider or device that identified the issue" />
+  <expression value="DetectedIssue.author" />
+  <xpath value="f:DetectedIssue/f:author" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+  <target value="Device" />
+</SearchParameter>

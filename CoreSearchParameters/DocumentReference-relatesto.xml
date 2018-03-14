@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="DocumentReference-relatesto" />
+  <url value="http://hl7.org/fhir/SearchParameter/DocumentReference-relatesto" />
+  <name value="relatesto" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Structured Documents)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/structure/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="relatesto" />
+  <base value="DocumentReference" />
+  <type value="reference" />
+  <description value="Target of the relationship" />
+  <expression value="DocumentReference.relatesTo.target" />
+  <xpath value="f:DocumentReference/f:relatesTo/f:target" />
+  <xpathUsage value="normal" />
+  <target value="DocumentReference" />
+</SearchParameter>

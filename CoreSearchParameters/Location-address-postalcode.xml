@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Location-address-postalcode" />
+  <url value="http://hl7.org/fhir/SearchParameter/Location-address-postalcode" />
+  <name value="address-postalcode" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="address-postalcode" />
+  <base value="Location" />
+  <type value="string" />
+  <description value="A postal code specified in an address" />
+  <expression value="Location.address.postalCode" />
+  <xpath value="f:Location/f:address/f:postalCode" />
+  <xpathUsage value="normal" />
+</SearchParameter>

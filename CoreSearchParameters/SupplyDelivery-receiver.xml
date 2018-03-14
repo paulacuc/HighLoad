@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="SupplyDelivery-receiver" />
+  <url value="http://hl7.org/fhir/SearchParameter/SupplyDelivery-receiver" />
+  <name value="receiver" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Orders and Observations)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/orders/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="receiver" />
+  <base value="SupplyDelivery" />
+  <type value="reference" />
+  <description value="Who collected the Supply" />
+  <expression value="SupplyDelivery.receiver" />
+  <xpath value="f:SupplyDelivery/f:receiver" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+</SearchParameter>

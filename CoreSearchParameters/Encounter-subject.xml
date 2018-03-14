@@ -1,0 +1,29 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Encounter-subject" />
+  <url value="http://hl7.org/fhir/SearchParameter/Encounter-subject" />
+  <name value="subject" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Administration)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/pafm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="subject" />
+  <base value="Encounter" />
+  <type value="reference" />
+  <description value="The patient ro group present at the encounter" />
+  <expression value="Encounter.subject" />
+  <xpath value="f:Encounter/f:subject" />
+  <xpathUsage value="normal" />
+  <target value="Group" />
+  <target value="Patient" />
+</SearchParameter>

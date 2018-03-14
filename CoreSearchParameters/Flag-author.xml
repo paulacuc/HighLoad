@@ -1,0 +1,31 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Flag-author" />
+  <url value="http://hl7.org/fhir/SearchParameter/Flag-author" />
+  <name value="author" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Care)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/patientcare/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="author" />
+  <base value="Flag" />
+  <type value="reference" />
+  <description value="Flag creator" />
+  <expression value="Flag.author" />
+  <xpath value="f:Flag/f:author" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+  <target value="Organization" />
+  <target value="Device" />
+  <target value="Patient" />
+</SearchParameter>

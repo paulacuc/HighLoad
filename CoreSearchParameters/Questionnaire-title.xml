@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Questionnaire-title" />
+  <url value="http://hl7.org/fhir/SearchParameter/Questionnaire-title" />
+  <name value="title" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (FHIR Infrastructure)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/fiwg/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="title" />
+  <base value="Questionnaire" />
+  <type value="string" />
+  <description value="The human-friendly name of the questionnaire" />
+  <expression value="Questionnaire.title" />
+  <xpath value="f:Questionnaire/f:title" />
+  <xpathUsage value="normal" />
+</SearchParameter>

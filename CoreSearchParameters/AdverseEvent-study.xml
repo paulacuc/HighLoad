@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="AdverseEvent-study" />
+  <url value="http://hl7.org/fhir/SearchParameter/AdverseEvent-study" />
+  <name value="study" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Regulated Clinical Research Information Management)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/rcrim/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="study" />
+  <base value="AdverseEvent" />
+  <type value="reference" />
+  <description value="AdverseEvent.study" />
+  <expression value="AdverseEvent.study" />
+  <xpath value="f:AdverseEvent/f:study" />
+  <xpathUsage value="normal" />
+  <target value="ResearchStudy" />
+</SearchParameter>

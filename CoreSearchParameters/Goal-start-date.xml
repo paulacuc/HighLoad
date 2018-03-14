@@ -1,0 +1,27 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="Goal-start-date" />
+  <url value="http://hl7.org/fhir/SearchParameter/Goal-start-date" />
+  <name value="start-date" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Patient Care)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/patientcare/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="start-date" />
+  <base value="Goal" />
+  <type value="date" />
+  <description value="When goal pursuit begins" />
+  <expression value="Goal.start.as(Date)" />
+  <xpath value="f:Goal/f:startDate" />
+  <xpathUsage value="normal" />
+</SearchParameter>

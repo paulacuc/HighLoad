@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="PaymentReconciliation-request-provider" />
+  <url value="http://hl7.org/fhir/SearchParameter/PaymentReconciliation-request-provider" />
+  <name value="request-provider" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Financial Management)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/fm/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="request-provider" />
+  <base value="PaymentReconciliation" />
+  <type value="reference" />
+  <description value="The reference to the provider who sumbitted the claim" />
+  <expression value="PaymentReconciliation.requestProvider" />
+  <xpath value="f:PaymentReconciliation/f:requestProvider" />
+  <xpathUsage value="normal" />
+  <target value="Practitioner" />
+</SearchParameter>

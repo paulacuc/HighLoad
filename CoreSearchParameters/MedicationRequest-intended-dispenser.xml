@@ -1,0 +1,28 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="MedicationRequest-intended-dispenser" />
+  <url value="http://hl7.org/fhir/SearchParameter/MedicationRequest-intended-dispenser" />
+  <name value="intended-dispenser" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="Health Level Seven International (Pharmacy)" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.hl7.org/Special/committees/medication/index.cfm" />
+    </telecom>
+  </contact>
+  <code value="intended-dispenser" />
+  <base value="MedicationRequest" />
+  <type value="reference" />
+  <description value="Returns prescriptions intended to be dispensed by this Organization" />
+  <expression value="MedicationRequest.dispenseRequest.performer" />
+  <xpath value="f:MedicationRequest/f:dispenseRequest/f:performer" />
+  <xpathUsage value="normal" />
+  <target value="Organization" />
+</SearchParameter>
